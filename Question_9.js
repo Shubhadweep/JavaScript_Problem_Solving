@@ -1,8 +1,8 @@
 /*
 Write a function arraysAreEqual that takes two arrays arr1 and arr2 as input and returns true if the arrays are equal(i.e., contain the same elements in the same order), and false otherwise.
- */
+ */ 
 
-function arraysAreEqual(arr1,arr2){
+function arraysAreEqual(arr1,arr2){   
     if(arr1.length === arr2.length){
        return arr1.every((currentValue,index,array)=>{ // Three parameters can be passed in every method, just for testing here we pass array.
         console.log(currentValue,index,array); 
